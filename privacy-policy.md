@@ -5,7 +5,7 @@
 This Privacy Policy explains how **QikAid** (“we,” “our,” or “us”) collects, uses, and protects information in our Chrome extension that overlays **Microsoft Teams**. QikAid currently supports **Teams only**.
 
 ---
-<br>
+<br><br>
 ## 1) Information We Collect
 
 QikAid is designed to minimize data collection. We only process what's needed to deliver features:
@@ -15,7 +15,7 @@ QikAid is designed to minimize data collection. We only process what's needed to
 - **Screenshots (optional):** Only when you explicitly choose to send a screenshot for analysis.
 
 ---
-<br>
+<br><br>
 ## 2) How We Use Your Information
 
 We use your inputs solely to generate answers and on-screen assistance:
@@ -28,7 +28,7 @@ We use your inputs solely to generate answers and on-screen assistance:
 We do **not** sell your data or use it for advertising.
 
 ---
-<br>
+<br><br>
 ## 3) Data Storage & Security
 
 - **Session-Scoped Processing:** Captions, prompts, and screenshots are processed **temporarily** while QikAid is active.  
@@ -46,7 +46,7 @@ QikAid currently relies on:
 We do not control third-party privacy practices. Please review their policies separately.
 
 ---
-<br>
+<br><br>
 ## 5) How QikAid Works (At a Glance)
 
 - **Overlay on Teams:** QikAid runs as an overlay UI on Microsoft Teams and captures live captions to assist in real time.  
@@ -56,14 +56,14 @@ We do not control third-party privacy practices. Please review their policies se
 - **UI Controls:** Adjust overlay transparency; minimize or hide the overlay as desired.
 
 ---
-<br>
+<br><br>
 ## 6) Support & Feedback
 
 - **Bug fixes & feature requests:** Post at **r/qikaid** on Reddit: <https://www.reddit.com/r/qikaid/>  
   *Note:* Reddit is a public forum governed by Reddit's own policies. Avoid sharing sensitive information in public posts.
 
 ---
-<br>
+<br><br>
 ## 7) Children's Privacy
 
 QikAid is not intended for children under 13. We do not knowingly collect information from children.
@@ -76,12 +76,12 @@ QikAid is currently offered **free of charge** during its infancy stage. **This 
 We may update this Privacy Policy from time to time. Updates will be posted here with a new effective date.
 
 ---
-<br>
+<br><br>
 ## 9) Contact
 
 Questions or concerns?  
 **Email:** **ndduc05@gmail.com**
 
 ---
-<br>
+<br><br>
 **Disclaimer:** QikAid is an independent tool and is *not affiliated with or endorsed by* Microsoft, OpenAI, or Amazon Web Services.
