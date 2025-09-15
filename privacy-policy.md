@@ -1,71 +1,78 @@
-# Privacy Policy for QuickAid
+# Privacy Policy for QikAid
 
 **Effective Date:** July 27, 2025
 
-This Privacy Policy outlines how **QuickAid** ("we", "our", or "us") collects, uses, and protects information through our Chrome Extension available via the Chrome Web Store and open source at [QuickAid GitHub Repository](https://github.com/ndduc/quick-aid).
+This Privacy Policy explains how **QikAid** (“we,” “our,” or “us”) collects, uses, and protects information in our Chrome extension that overlays **Microsoft Teams**. QikAid currently supports **Teams only**.
 
 ---
 
-## 1. Information We Collect
+## 1) Information We Collect
+QikAid is designed to minimize data collection. We only process what’s needed to deliver features:
 
-QuickAid is designed with user privacy in mind. We collect only the minimal data necessary for functionality:
-
-- **Transcribed Text**: Captured live from your Google Meet session via the Tactiq extension.
-- **User Prompts**: Custom or predefined questions that you submit to OpenAI for assistance.
-- **Screenshots**: Only when you intentionally take a screenshot for AI analysis.
-- **OpenAI API Key**: Stored **locally** in your browser's localStorage. We never transmit or access your key.
+- **Live Captions (Teams):** Transcribed text captured natively from Microsoft Teams while QikAid is active.  
+- **User Prompts (optional):** Questions you type into QikAid.  
+- **Screenshots (optional):** Only when you explicitly choose to send a screenshot for analysis.
 
 ---
 
-## 2. How We Use Your Information
+## 2) How We Use Your Information
+We use your inputs solely to generate answers and on-screen assistance:
 
-QuickAid uses your information solely to provide its core features:
+- We send your prompts (and, if you choose, screenshots and relevant caption snippets) to **AI model providers** to generate responses, including:  
+  - **OpenAI** (e.g., GPT-4o and OpenAI OpenWeight offerings)  
+  - **Amazon Web Services (Amazon Bedrock)** — **Nova Lite**
+- We display the responses in the QikAid overlay inside your Teams meeting.
 
-- Send prompts and optional screenshots to **OpenAI’s API** for generating responses.
-- Display those responses in the live QuickAid overlay.
-
-We do not log, transmit, or store any personal or session data outside of your local device.
-
----
-
-## 3. Data Storage & Security
-
-- Your **OpenAI key** remains in your browser and is never shared.
-- Transcripts and screenshots are **temporarily processed** only while the extension is active.
-- No personal information is stored, analyzed, or retained by QuickAid.
+We do **not** sell your data or use it for advertising.
 
 ---
 
-## 4. Third-Party Services
-
-QuickAid relies on the following third-party services:
-
-- **OpenAI API** — to generate answers to your questions. [OpenAI’s Privacy Policy](https://openai.com/policies/privacy-policy)
-- **Tactiq Chrome Extension** — to extract meeting transcriptions. [Tactiq’s Privacy Policy](https://www.tactiq.io/privacy)
-
-We do not control or assume responsibility for the privacy practices of these services.
+## 3) Data Storage & Security
+- **Session-Scoped Processing:** Captions, prompts, and screenshots are processed **temporarily** while QikAid is active.  
+- **No Persistent Storage by QikAid:** We do not permanently store your meeting content on QikAid servers. Temporary caching may occur only to provide real-time features and is discarded after the session.  
+- **Transmission to Model Providers:** Content you choose to process is transmitted to **OpenAI** and/or **AWS (Amazon Bedrock)** for inference, depending on the feature.
 
 ---
 
-## 5. Children's Privacy
+## 4) Third-Party Services
+QikAid currently relies on:
+- **OpenAI** — to generate answers (e.g., GPT-4o, OpenAI OpenWeight).  
+- **Amazon Web Services (Amazon Bedrock)** — to generate answers using **Nova Lite**.
 
-QuickAid is not intended for users under the age of 13. We do not knowingly collect information from children.
-
----
-
-## 6. Updates to This Policy
-
-We may revise this Privacy Policy from time to time. Any changes will be posted here with an updated effective date.
+We do not control third-party privacy practices. Please review their policies separately.
 
 ---
 
-## 7. Contact
-
-For privacy-related questions or concerns, please reach out:
-
-- **Email:** [ndduc1856@gmail.com](mailto:ndduc1856@gmail.com)  
-- **GitHub Issues:** [https://github.com/ndduc/quick-aid](https://github.com/ndduc/quick-aid)
+## 5) How QikAid Works (At a Glance)
+- **Overlay on Teams:** QikAid runs as an overlay UI on Microsoft Teams and captures live captions to assist in real time.  
+- **Real-time Classification & Answers:** QikAid can classify technical questions from captions and request a formatted answer automatically.  
+- **Manual Questions:** You can type your own questions and submit them for an answer.  
+- **Screenshots:** You may send a screenshot for analysis when needed.  
+- **UI Controls:** Adjust overlay transparency; minimize or hide the overlay as desired.
 
 ---
 
-> **Disclaimer:** QuickAid is an independent Chrome Extension and is *not affiliated with or endorsed by* Google, Tactiq, or OpenAI.
+## 6) Support & Feedback
+- **Bug fixes & feature requests:** Post at **r/qikaid** on Reddit: <https://www.reddit.com/r/qikaid/>  
+  *Note:* Reddit is a public forum governed by Reddit’s own policies. Avoid sharing sensitive information in public posts.
+
+---
+
+## 7) Children’s Privacy
+QikAid is not intended for children under 13. We do not knowingly collect information from children.
+
+---
+
+## 8) Pricing & Changes
+QikAid is currently offered **free of charge** during its infancy stage. **This is subject to change** as the product evolves.  
+We may update this Privacy Policy from time to time. Updates will be posted here with a new effective date.
+
+---
+
+## 9) Contact
+Questions or concerns?  
+**Email:** **ndduc05@gmail.com**
+
+---
+
+**Disclaimer:** QikAid is an independent tool and is *not affiliated with or endorsed by* Microsoft, OpenAI, or Amazon Web Services.
